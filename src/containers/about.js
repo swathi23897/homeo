@@ -10,12 +10,12 @@ export class AboutComponent extends React.Component {
 
   
   <div  className="container-fluid"  style={{backgroundColor:'white',paddingBottom:'5%',paddingtop:'0%',border:'1px solid white'}}  >
-  <div  className="" style={{marginTop:"3%",display:'block',}}>
-  <h3 style={{textAlign:'center',fontWeight:'bold',fontFamily:'Marker Felt, fantasy',color:'black'}}>About Me</h3>
+  <div  className="bgwhite box" style={{marginTop:"3%",display:'block',}}>
+  <h3 style={{textAlign:'center',fontWeight:'bold',fontFamily:'',color:'black'}}>About Me</h3>
      
      <div className=" container" style={{}}>
        
-     <div className="wrapper flex ">
+     <div className="wrapper flex">
     
      <p style={{textAlign:'left',marginTop:"25px",fontSize:'15px'}}>Who are in extremely love with eco friendly system. Lorem ipsum dolor sit amet, consectetur adipisicing elit,
            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 

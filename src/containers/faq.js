@@ -27,9 +27,9 @@ export class FaqComponent extends React.Component {
     return(
 <div>
   
-  <div className="container-fluid"  style={{filter:'brightness(100%)',backgroundImage:`url(${m2})`,backgroundSize:'100% 100%',backgroundRepeat:"no-repeat",objectFit:'cover',backgroundSize:'100% 100%',backgroundColor:'#a6dcef',height:'auto',width:"100%",paddingBottom:'3%',overflow:'hidden',border:'0px solid white'}}  >
+  <div className="container-fluid"  style={{filter:'brightness(100%)',backgroundImage:`url(${m2})`,backgroundSize:'100% 100%',backgroundAttachment:"fixed",backgroundRepeat:"no-repeat",objectFit:'cover',backgroundSize:'100% 100%',backgroundColor:'#a6dcef',height:'auto',width:"100%",paddingBottom:'3%',overflow:'hidden',border:'0px solid white'}}  >
   <div  className="container" style={{display:'block',height:'auto'}}>
-    <h3 style={{fontFamily:'Marker Felt, fantasy',textAlign:"center",fontWeight:'bold',paddingTop:'5%',paddingBottom:'3%',color:'white'}}>FAQ</h3>
+    <h3 style={{fontFamily:'',textAlign:"center",fontWeight:'bold',paddingTop:'5%',paddingBottom:'3%',color:'white'}}>FAQ</h3>
     <div className="wrapperf flexf">
     {this.state.items.map(i=>(
         <div className="anim" >

@@ -15,13 +15,13 @@ export class ContactComponent extends React.Component{
      <ul >
     <li>
     
-      <div align="center"> <i className="fa fa-2x fa-clock-o" aria-hidden="true" style={{color:'yellow'}} ></i></div>  
+      <div align="center"> <i className="fa fa-2x fa-clock-o" aria-hidden="true" style={{color:'#DD2D79'}} ></i></div>  
        
       
     </li>
     <li>
     
-    <div align="center"><i className="fa fa-2x fa-phone" aria-hidden="true" style={{color:'red'}} ></i></div>  
+    <div align="center"><i className="fa fa-2x fa-phone" aria-hidden="true" style={{color:'blue'}} ></i></div>  
     
     </li>
     <li>
@@ -38,12 +38,15 @@ export class ContactComponent extends React.Component{
     </li>
     <li>
      
-      <div align="center"><SocialMediaIconsReact icon="instagram" url="" align="center" borderColor="white" /></div>  
+      {/* <div align="center"><SocialMediaIconsReact icon="instagram" url="" align="center" borderColor="white" /></div>   */}
+      <div align="center"><i className="fa fa-2x fa-instagram" aria-hidden="true" style={{color:'#DD2D79'}} ></i></div>  
         
       
       </li>
       <li>
-      <div align="center"><SocialMediaIconsReact icon="facebook" url="" borderColor="white"/></div>  </li>
+      {/* <div align="center"><SocialMediaIconsReact icon="facebook" url="" borderColor="white"/></div> */}
+      <div align="center"><i className="fa fa-2x fa-facebook" aria-hidden="true" style={{color:'#0C88EF'}} ></i></div>  
+        </li>
    </ul>
     </div>
     
