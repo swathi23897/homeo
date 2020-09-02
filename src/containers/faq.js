@@ -16,8 +16,7 @@ export class FaqComponent extends React.Component {
     {id:5,name:"Piccolo Latte",desc:"Usage of the Internet is becoming more common due to rapid advance.",price:"49",type:"lunch"},
     {id:6,name:"Mocha",desc:"Usage of the Internet is becoming more common due to rapid advance.",price:"49",type:"dinner"},
     {id:7,name:"Piccolo Latte",desc:"Usage of the Internet is becoming more common due to rapid advance.",price:"49",type:"dinner"},
-    {id:8,name:"Piccolo Latte",desc:"Usage of the Internet is becoming more common due to rapid advance.",price:"49",type:"buffet"},
-    
+   
 ],
      
 

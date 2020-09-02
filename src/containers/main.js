@@ -19,7 +19,7 @@ export class MainComponent extends React.Component {
     return <div >
         <div>
      <Navbar id="home" fixed="top" expand="lg" style={{color:'white',backgroundColor:'rgba(0, 0, 0, 0.5)'}}>
-      <Navbar.Brand href="/" style={{color:'white'}}><span></span>Pradima</Navbar.Brand>
+      <Navbar.Brand href="/" style={{color:'white'}}><span></span>Dr.Pavani</Navbar.Brand>
       <Navbar.Toggle style={{backgroundColor:'white'}} aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav" style={{cursor:'pointer'}}>
         {/* <Nav  className="m-auto">
@@ -33,7 +33,7 @@ export class MainComponent extends React.Component {
         <Navbar.Text className="ml-5" style={{color:'white'}} onClick={this.scroll.bind(this,'about')}>About</Navbar.Text>
         <Navbar.Text className="ml-5" style={{color:'white'}} onClick={this.scroll.bind(this,'faq')}>FAQ</Navbar.Text>
         <Navbar.Text className="ml-5" style={{color:'white'}} onClick={this.scroll.bind(this,'contact')}>Contact</Navbar.Text>
-        <Navbar.Text className="ml-5" style={{color:'white'}} onClick={this.scroll.bind(this,'footer')}>Footer</Navbar.Text>
+        {/* <Navbar.Text className="ml-5" style={{color:'white'}} onClick={this.scroll.bind(this,'footer')}>Footer</Navbar.Text> */}
       </Navbar.Collapse>
     </Navbar>
     </div>
@@ -55,9 +55,9 @@ export class MainComponent extends React.Component {
   <GalleryComponent></GalleryComponent> 
   </div> */}
       </main>
-      <div id="footer">
+      {/* <div id="footer">
       <FooterComponent></FooterComponent>
-      </div>
+      </div> */}
     </div>
 
 
