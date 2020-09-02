@@ -1,17 +1,17 @@
-.wrapper1 {
+.wrapperc {
     /* border: 5px solid rgb(86,98,110); */
     border-radius: 5px;
     margin-bottom: 2em;
   }
   
-  .wrapper1 > div {
+  .wrapperc > div {
     /* background-color: rgb(89,161,175); */
     border-radius: 5px;
     padding: 10px;
     /* color:white; */
     font-weight: bold;
   }
-  .wrapper1 > div p{
+  .wrapperc > div p{
    font-weight: 10px;
   }
   

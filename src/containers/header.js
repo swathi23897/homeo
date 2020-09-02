@@ -16,9 +16,9 @@ export class HeaderComponent extends React.Component {
         <Nav  className="m-auto">
           <Nav.Link style={{color:'white'}} className="ml-5" href="">Home</Nav.Link>
           <Nav.Link style={{color:'white'}} className="ml-5" href="#about">About</Nav.Link>
-          <Nav.Link style={{color:'white'}} className="ml-5" href="#link">Menu</Nav.Link>
-          <Nav.Link style={{color:'white'}} className="ml-5" href="#link">Gallery</Nav.Link>
+          <Nav.Link style={{color:'white'}} className="ml-5" href="#link">FAQ</Nav.Link>
           <Nav.Link style={{color:'white'}} className="ml-5" href="#link">Contact</Nav.Link>
+          <Nav.Link style={{color:'white'}} className="ml-5" href="#link">Footer</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

@@ -1,30 +1,30 @@
-.wrapper1 {
+.wrapperfo {
   /* border: 5px solid rgb(86,98,110); */
   border-radius: 5px;
   margin-bottom: 2em;
 }
 
-.wrapper1 > div {
+.wrapperfo > div {
   /* background-color: rgb(89,161,175); */
   border-radius: 5px;
   padding: 10px;
   /* color:white; */
   font-weight: bold;
 }
-.wrapper1 > div p{
+.wrapperfo > div p{
  font-weight: 10px;
 }
 
 
 
 
-.flexc {
+.flexfo {
    display: flex;
   flex-wrap: wrap;
 }
 
-.flexc > * {
-  /* flex: 1 1 250px; */
+.flexfo > * {
+  flex: 1 1 270px;
   margin: 10px;
 }
 

@@ -1,20 +1,20 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel'
-import food from '../assets/food.jpg'
-import about from '../assets/about.jpg'
-import buffet from '../assets/buffet.jpg'
+import ingredients from '../assets/ingredients.jpg'
+import l1 from '../assets/l1.jpg'
+import h2 from '../assets/h2.jpg'
 export class HomeComponent extends React.Component {
 
   render()
   {
-   return<div className="wrapper2" style={{padding:'0%',margin:'0%'}}>
+   return<div className="wrapper" style={{padding:'0%',margin:'0%'}}>
  
-      <div style={{ Width:'100vw'}}>
+      <div style={{ width:'100%',margin:'0',padding:'0'}}>
       <Carousel >
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src={food}
+      src={h2}
       style={{height:'90vh'}}
     />
     <Carousel.Caption>
@@ -25,9 +25,9 @@ export class HomeComponent extends React.Component {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src={about}
+      src={l1}
       alt="Third slide"
-      style={{maxheight:'50vh'}}
+      style={{height:'90vh'}}
     />
 
     <Carousel.Caption>
@@ -38,8 +38,8 @@ export class HomeComponent extends React.Component {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src={buffet}
-      style={{maxheight:'50vh'}}
+      src={ingredients}
+      style={{height:'90vh'}}
     />
 
     <Carousel.Caption>
