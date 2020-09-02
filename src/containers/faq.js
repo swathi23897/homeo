@@ -37,19 +37,19 @@ export class FaqComponent extends React.Component {
         <Accordion>
         <Card>
           <Card.Header>
-              <Row>
+              <div style={{display:"inline-flex"}}>
 
 
 
 
-                  <Col >
+                  <div style={{width:"80%"}}>
             <p>
-Q: Is it safe for children, pregnant women, elderly women to take homeopathic remedies?</p></Col>
-             <Col >
+Q: Is it safe for children, pregnant women, elderly women to take homeopathic remedies?</p></div>
+             <div style={{width:"20%"}}>
             <Accordion.Toggle as={Button} variant="link" eventKey={i.id} style={{float:'right'}}>
            <span><i className="fa fa-1x fa-plus"  style={{color:'black'}} aria-hidden="true"></i></span>
-            </Accordion.Toggle></Col>
-            </Row>
+            </Accordion.Toggle></div>
+            </div>
           </Card.Header>
           <Accordion.Collapse eventKey={i.id}>
             <Card.Body>Hello! I'm the body</Card.Body>
