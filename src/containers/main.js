@@ -30,8 +30,7 @@ export class MainComponent extends React.Component {
       </Navbar.Collapse>
     </Navbar>
     
-      <main  role="main" height="100%" 
-    width="100%" >
+      <div width="100%" >
     <div   id="home">
    <HomeComponent ></HomeComponent>
    </div>
@@ -47,7 +46,7 @@ export class MainComponent extends React.Component {
   {/* <div id="fc">
   <GalleryComponent></GalleryComponent> 
   </div> */}
-      </main>
+      </div>
       <div id="footer">
       <FooterComponent></FooterComponent>
       </div>

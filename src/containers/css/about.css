@@ -76,7 +76,7 @@ ul,li{
 }
 ul{
   overflow:hidden;
-  padding:3em;
+  /* padding:3em; */
   align-content:center ;
   justify-content: center;
   
