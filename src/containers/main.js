@@ -16,8 +16,7 @@ export class MainComponent extends React.Component {
   }
   render() {
    
-    return <div >
-        <div>
+    return <div>
      <Navbar id="home" fixed="top" expand="lg" style={{color:'white',backgroundColor:'rgba(0, 0, 0, 0.5)'}}>
       <Navbar.Brand href="/" style={{color:'white'}}><span></span>Dr.Pavani</Navbar.Brand>
       <Navbar.Toggle style={{backgroundColor:'white'}} aria-controls="basic-navbar-nav" />
@@ -52,8 +51,6 @@ export class MainComponent extends React.Component {
       <div id="footer">
       <FooterComponent></FooterComponent>
       </div>
-    </div>
-
     </div>
 
   }
