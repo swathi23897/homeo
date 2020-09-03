@@ -51,7 +51,7 @@ Q: Is it safe for children, pregnant women, elderly women to take homeopathic re
             </div>
           </Card.Header>
           <Accordion.Collapse eventKey={i.id}>
-            <Card.Body>Hello! I'm the body</Card.Body>
+            <Card.Body style={{color:"black"}}>Hello! I'm the body</Card.Body>
           </Accordion.Collapse>
         </Card>
        
