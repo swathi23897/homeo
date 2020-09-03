@@ -30,7 +30,7 @@ export class MainComponent extends React.Component {
       
       </Navbar.Collapse>
     </Navbar>
-    </div>
+    
       <main  role="main" height="100%" 
     width="100%" >
     <div   id="home">
@@ -54,7 +54,7 @@ export class MainComponent extends React.Component {
       </div>
     </div>
 
-
+    </div>
 
   }
 }

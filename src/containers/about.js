@@ -17,7 +17,7 @@ export class AboutComponent extends React.Component {
        
      <div className="wrapper flex">
     
-     <p style={{textAlign:'left',marginTop:"25px",fontSize:'15px'}}>Who are in extremely love with eco friendly system. Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+     <p style={{textAlign:'left',marginTop:"25px",fontSize:'15px',color:"black"}}>Who are in extremely love with eco friendly system. Lorem ipsum dolor sit amet, consectetur adipisicing elit,
            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
           quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Who are in extremely love with eco friendly system. Lorem ipsum dolor sit amet, consectetur adipisicing elit,
            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 

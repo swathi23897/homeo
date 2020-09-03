@@ -42,7 +42,7 @@ export class FaqComponent extends React.Component {
 
 
                   <div style={{width:"80%"}}>
-            <p>
+            <p style={{color:"black"}}>
 Q: Is it safe for children, pregnant women, elderly women to take homeopathic remedies?</p></div>
              <div style={{width:"20%"}}>
             <Accordion.Toggle as={Button} variant="link" eventKey={i.id} style={{float:'right'}}>

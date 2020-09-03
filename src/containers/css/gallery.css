@@ -23,10 +23,10 @@ ul {
      
   }
   
-  li:last-child {
+  /* li:last-child {
     
     flex-grow: 10;
-  }
+  } */
   
   img {
     max-height: 100%;

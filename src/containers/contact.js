@@ -26,7 +26,7 @@ export class ContactComponent extends React.Component{
     <li>
     
     <div align="center"><i className="fa fa-2x fa-phone" aria-hidden="true" style={{color:'#0C88EF'}} ></i>
-    <p style={{paddingTop:'1vh'}}>9876543210</p>
+    <p style={{paddingTop:'1vh'}}>+91 9876543210</p>
     </div>  
     
     </li>
@@ -38,7 +38,9 @@ export class ContactComponent extends React.Component{
     <li>
    
     <div align="center"><i className="fa fa-2x fa-map-marker" aria-hidden="true" style={{color:'#0C88EF'}} ></i>
-    <p><a style={{color:'black'}} href="#">View Map</a></p>
+    {/* <p><a style={{color:'black'}} href="#">View Map</a></p> */}
+    <p>View Map</p>
+    
     </div>  
        
     
@@ -49,7 +51,8 @@ export class ContactComponent extends React.Component{
       {/* <div align="center"><SocialMediaIconsReact icon="instagram" url="" align="center" borderColor="white" /></div>   */}
       <div align="center"><i className="fa fa-2x fa-instagram" aria-hidden="true" style={{color:'#DD2D79'}} ></i>
       
-     <p><a style={{color:'black'}} href="#">View Profile</a></p>
+     {/* <p><a style={{color:'black'}} href="#">View Profile</a></p> */}
+     <p>View Instagram Profile</p>
       </div>  
   
       
@@ -57,7 +60,8 @@ export class ContactComponent extends React.Component{
       <li>
       {/* <div align="center"><SocialMediaIconsReact icon="facebook" url="" borderColor="white"/></div> */}
       <div align="center" className="fb"><i className="fa fa-2x fa-facebook" aria-hidden="true" style={{color:'#0C88EF'}} ></i>
-      <p><a style={{color:'black'}} href="#">View Profile</a></p>
+      {/* <p><a style={{color:'black'}} href="#">View Profile</a></p> */}
+      <p>View facebook Profile</p>
       </div>  
      
         </li>
