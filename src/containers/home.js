@@ -15,7 +15,7 @@ export class HomeComponent extends React.Component {
     <img
       className="d-block w-100"
       src={h2}
-      style={{height:'90vh'}}
+      style={{height:'100vh'}}
     />
     <Carousel.Caption>
       <h3>First slide label</h3>
@@ -27,7 +27,7 @@ export class HomeComponent extends React.Component {
       className="d-block w-100"
       src={l1}
       alt="Third slide"
-      style={{height:'90vh'}}
+      style={{height:'100vh'}}
     />
 
     <Carousel.Caption>
@@ -39,8 +39,8 @@ export class HomeComponent extends React.Component {
     <img
       className="d-block w-100"
       src={ingredients}
-      style={{height:'90vh'}}
-    />
+      style={{height:'100vh'}}
+    alt=""/>
 
     <Carousel.Caption>
       <h3>Third slide label</h3>

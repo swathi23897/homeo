@@ -6,6 +6,7 @@ import { GalleryComponent } from './gallery';
 import { HomeComponent } from './home';
 import {FaqComponent } from './faq';
 import {ContactComponent } from './contact';
+import Demo from './Demo'
 
 
 export class RoutesComponent extends React.Component{
@@ -22,6 +23,7 @@ export class RoutesComponent extends React.Component{
               <Route path="/about" component={()=><AboutComponent />}></Route>
               <Route path="/contact" component={()=><ContactComponent />}></Route>
               <Route path="/gallery" component={()=><GalleryComponent />}></Route>
+              <Route path="/demo" component={()=><Demo />}></Route>
               
           </Switch>
         

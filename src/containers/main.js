@@ -35,7 +35,7 @@ export class MainComponent extends React.Component {
    <HomeComponent ></HomeComponent>
    </div>
   <div id="about">
-  <AboutComponent ></AboutComponent> 
+  <AboutComponent></AboutComponent> 
   </div> 
   <div id="faq">
   <FaqComponent></FaqComponent> 
